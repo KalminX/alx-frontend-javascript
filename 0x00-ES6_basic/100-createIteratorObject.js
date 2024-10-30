@@ -12,7 +12,7 @@ export default function createIteratorObject(report) {
           if (index < args.length) {
             return { value: args[index++], done: false };
           }
-          return { value: undefined, done: true };
+          return { value: args[index++], done: true };
         },
       };
     },
