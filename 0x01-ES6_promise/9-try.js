@@ -8,4 +8,5 @@ export default async function guardrail(mathFunction) {
     queue.push(e.message);
   }
   queue.push('Guardrail was processed');
+  return queue;
 }
