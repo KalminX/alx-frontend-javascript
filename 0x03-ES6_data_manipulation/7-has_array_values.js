@@ -1,3 +1,3 @@
-export default function hasValuesFromArray(a, arr) {
-  return a.isSupersetOf(new Set(arr));
+export default function hasValuesFromArray(set, array) {
+  return set.isSupersetOf(new Set(array));
 }
